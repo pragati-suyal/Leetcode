@@ -1,4 +1,8 @@
-class Solution()
+#include <string>
+using namespace std;
+
+class Solution {
+
 public:
   char findtheDifference(string s, string t) {
     char ans = 0;
@@ -11,3 +15,4 @@ public:
 
      return ans;
   }
+};
